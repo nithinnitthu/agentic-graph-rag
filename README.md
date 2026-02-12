@@ -1,4 +1,20 @@
 # Agentic Graph RAG Backend
+# Agentic Graph-Based RAG System
+
+## Overview
+This project implements a Retrieval-Augmented Generation system
+with modular architecture separating retrieval, generation, and orchestration.
+
+## Architecture
+Retriever → Context Builder → Generator → Final Response
+
+## How to Run
+pip install -r requirements.txt
+python main.py
+
+## Evaluation
+Basic regression test added in tests/ folder.
+
 
 This README includes instructions for running, testing, and configuring CI publishing to container registries.
 
@@ -64,3 +80,4 @@ You can add these from the command line using the GitHub CLI:
 gh secret set DOCKERHUB_USERNAME --body "your-username"
 gh secret set DOCKERHUB_TOKEN --body "<paste-your-token-here>"
 ```
+
