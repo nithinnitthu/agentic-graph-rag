@@ -1,0 +1,13 @@
+rag-system/
+│
+├── app/
+│   ├── retriever.py
+│   ├── generator.py
+│   ├── agent.py
+│
+├── tests/
+│   ├── test_basic.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
